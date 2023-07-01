@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Custom Styles */
+
+  
+  .product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    padding-left: 70px;
+   align-items: center;
+ 
+
+  }
+  
+  .product img {
+    width: 200px;
+    height: 150;
+  }
+  
+  .product h3 {
+    margin-top: 10px;
+  }
+  
+  .product p {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .product button {
+    margin-top: 10px;
+  }
+  
+  button {
+
+    background-color:rgba(221, 221, 43, 0.984);
+    color: white;
+    border: 0px;
+    
+    
+  }
+  
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  .cookie-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+
+  .brand img{
+    width: 250px;
+    height: 150px;
+  }
+ 
+  .brand {
+    display: inline-block;
+    width: 200px;
+    margin: 40px;
+    padding: 10px;
+   align-items: center;
+
+  }
+  
+  .jordan {
+    display: inline-block;
+   
+    margin: 10px;
+    padding: 20px;
+    padding-left: 70px;
+   align-items: center;
+  }
+  .girl {
+    display: inline-block;
+    
+    margin: 10px;
+    padding: 20px;
+   
+   align-items: center;
+  }
+
+  .second {
+    text-align: center;
+    border: 1px solid;
+    background-color: cornsilk;
+    font-size: 20px;
+    align-items: center;
+    font-style:italic;
+    padding-top:10px;
+   
+  }
+ 
+  .apparel {
+    display: inline-block;
+    width: 200px;
+    margin: 40px;
+    padding: 10px;
+   align-items: center;
+   padding-top: 0px;
+
+  }
+  
+  .apparel img {
+    width: 250px;
+    height: 150;
+  }
+
+  .Oo {
+    background-color: #333;
+    color: green;
+    position: absolute;
+    top:11%;
+    left:91%;
+    border: green 1px solid;
+    border-radius: 10px;
+  }
+
+  .Oo:hover {
+background-color: green;
+color:white;
+  }
+
+  .carousel {
+    position: relative;
+  }
+  
+  .carousel-inner {
+   
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item.active {
+    transform: translateX(0);
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-control-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  .cart-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
